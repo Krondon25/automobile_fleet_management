@@ -1,0 +1,377 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* automobile_fleet_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-14 21:40+0000\n"
+"PO-Revision-Date: 2022-03-14 21:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: automobile_fleet_management
+#: model:ir.actions.report,print_report_name:automobile_fleet_management.report_vehicle
+msgid "'Report'"
+msgstr "Reporte"
+
+#. module: automobile_fleet_management
+#: model_terms:ir.ui.view,arch_db:automobile_fleet_management.report_vehicle_templ
+msgid "<strong>Brand </strong>"
+msgstr "Marca"
+
+#. module: automobile_fleet_management
+#: model_terms:ir.ui.view,arch_db:automobile_fleet_management.report_vehicle_templ
+msgid "<strong>Color </strong>"
+msgstr "Color"
+
+#. module: automobile_fleet_management
+#: model_terms:ir.ui.view,arch_db:automobile_fleet_management.report_vehicle_templ
+msgid "<strong>Current price </strong>"
+msgstr "Precio Actual"
+
+#. module: automobile_fleet_management
+#: model_terms:ir.ui.view,arch_db:automobile_fleet_management.report_vehicle_templ
+msgid "<strong>Mileage </strong>"
+msgstr "Kilometraje"
+
+#. module: automobile_fleet_management
+#: model_terms:ir.ui.view,arch_db:automobile_fleet_management.report_vehicle_templ
+msgid "<strong>Models </strong>"
+msgstr "Modelos"
+
+#. module: automobile_fleet_management
+#: model_terms:ir.ui.view,arch_db:automobile_fleet_management.report_vehicle_templ
+msgid "<strong>Year </strong>"
+msgstr "Ano"
+
+#. module: automobile_fleet_management
+#: model_terms:ir.ui.view,arch_db:automobile_fleet_management.report_vehicle_templ
+msgid "<strong>service </strong>"
+msgstr "Servicio"
+
+#. module: automobile_fleet_management
+#: model:ir.ui.menu,name:automobile_fleet_management.menu_automobile_fleet_root
+msgid "Automobile Fleet Management"
+msgstr "Gestión de flota de automovil"
+
+#. module: automobile_fleet_managemevnt
+#: model:ir.ui.menu,name:automobile_fleet_management.menu_automobile_management
+msgid "Automobile Management"
+msgstr "Gestión de automovil"
+
+#. module: automobile_fleet_management
+#: model_terms:ir.ui.view,arch_db:automobile_fleet_management.vehicle_search
+msgid "Brand"
+msgstr "Marca"
+
+#. module: automobile_fleet_management
+#: model_terms:ir.ui.view,arch_db:automobile_fleet_management.vehicle_report_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: automobile_fleet_management
+#: model_terms:ir.ui.view,arch_db:automobile_fleet_management.vehicle_search
+msgid "Color"
+msgstr "Color"
+
+#. module: automobile_fleet_management
+#: model_terms:ir.actions.act_window,help:automobile_fleet_management.mileage_action
+#: model_terms:ir.actions.act_window,help:automobile_fleet_management.vehicle_action
+msgid "Create a New Record"
+msgstr "Crear un nuevo Registro"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_maintenance_service__create_uid
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_mileage__create_uid
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_mileage_discount__create_uid
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_service__create_uid
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle__create_uid
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_brand__create_uid
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_color__create_uid
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_models__create_uid
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_report_wizard__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_maintenance_service__create_date
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_mileage__create_date
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_mileage_discount__create_date
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_service__create_date
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle__create_date
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_brand__create_date
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_color__create_date
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_models__create_date
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_report_wizard__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle__current_price
+msgid "Current Price"
+msgstr "Precio actual"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_maintenance_service__display_name
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_mileage__display_name
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_mileage_discount__display_name
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_report_automobile_fleet_management_report_vehicle_templ__display_name
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_service__display_name
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle__display_name
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_brand__display_name
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_color__display_name
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_models__display_name
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_report_wizard__display_name
+msgid "Display Name"
+msgstr "Nombre"
+
+#. module: automobile_fleet_management
+#: model:ir.model,name:automobile_fleet_management.model_vehicle_report_wizard
+msgid "Generate report"
+msgstr "Generar Reporte"
+
+#. module: automobile_fleet_management
+#: model_terms:ir.ui.view,arch_db:automobile_fleet_management.vehicle_search
+msgid "Group By"
+msgstr "Agrupado por"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_maintenance_service__id
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_mileage__id
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_mileage_discount__id
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_report_automobile_fleet_management_report_vehicle_templ__id
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_service__id
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle__id
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_brand__id
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_color__id
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_models__id
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_report_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: automobile_fleet_management
+#: model_terms:ir.ui.view,arch_db:automobile_fleet_management.vehicle_view_form
+msgid "Information"
+msgstr "Información"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_maintenance_service____last_update
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_mileage____last_update
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_mileage_discount____last_update
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_report_automobile_fleet_management_report_vehicle_templ____last_update
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_service____last_update
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle____last_update
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_brand____last_update
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_color____last_update
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_models____last_update
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_report_wizard____last_update
+msgid "Last Modified on"
+msgstr "Ultima modificación"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_maintenance_service__write_uid
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_mileage__write_uid
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_mileage_discount__write_uid
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_service__write_uid
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle__write_uid
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_brand__write_uid
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_color__write_uid
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_models__write_uid
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_report_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Ultima Actualización"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_maintenance_service__write_date
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_mileage__write_date
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_mileage_discount__write_date
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_service__write_date
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle__write_date
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_brand__write_date
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_color__write_date
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_models__write_date
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_report_wizard__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: automobile_fleet_management
+#: model:ir.model,name:automobile_fleet_management.model_maintenance_service
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle__maintenance_ids
+#: model_terms:ir.ui.view,arch_db:automobile_fleet_management.vehicle_view_form
+msgid "Maintenance Service"
+msgstr "Servicio de mantenimineto"
+
+#. module: automobile_fleet_management
+#: model:ir.actions.act_window,name:automobile_fleet_management.mileage_action
+#: model:ir.model,name:automobile_fleet_management.model_mileage
+#: model:ir.model,name:automobile_fleet_management.model_mileage_discount
+msgid "Mileage"
+msgstr "Kilometraje"
+
+#. module: automobile_fleet_management
+#: model_terms:ir.ui.view,arch_db:automobile_fleet_management.vehicle_search
+msgid "Model"
+msgstr "modelo"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_mileage__name
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_mileage_discount__name
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_service__name
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_brand__name
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_color__name
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_models__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_mileage__percentage_discount_id
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle__mileage_porcentge_id
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle__percentage_discount_id
+msgid "Percentage Discount"
+msgstr "Porcentaje de Descuento"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_mileage_discount__percentage_discount
+msgid "Percentaje discount"
+msgstr "Porcentaje de Descuento"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_maintenance_service__price
+msgid "Price"
+msgstr "Precio"
+
+#. module: automobile_fleet_management
+#: model_terms:ir.ui.view,arch_db:automobile_fleet_management.vehicle_report_form
+msgid "Print"
+msgstr "Imprimir"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle__purchase_date
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle_report_wizard__purchase_date
+msgid "Purchase Date"
+msgstr "Fecha de compra"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle__purchase_price
+msgid "Purchase Price"
+msgstr "Precio de compra"
+
+#. module: automobile_fleet_management
+#: model:ir.actions.act_window,name:automobile_fleet_management.wizard_action
+#: model:ir.ui.menu,name:automobile_fleet_management.menu_automobile_report
+#: model:ir.ui.menu,name:automobile_fleet_management.menu_report
+#: model_terms:ir.ui.view,arch_db:automobile_fleet_management.vehicle_report_form
+msgid "Report"
+msgstr "Reporte"
+
+#. module: automobile_fleet_management
+#: model:ir.actions.report,name:automobile_fleet_management.report_vehicle
+msgid "Report Vehicle"
+msgstr "Reporte de Vehiculos"
+
+#. module: automobile_fleet_management
+#: model:ir.model,name:automobile_fleet_management.model_service
+msgid "Service"
+msgstr "Servicio"
+
+#. module: automobile_fleet_management
+#: model_terms:ir.ui.view,arch_db:automobile_fleet_management.vehicle_view_form
+msgid "Total"
+msgstr "Total"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_maintenance_service__service_id
+msgid "Type Service"
+msgstr "Tipo de servicio"
+
+#. module: automobile_fleet_management
+#: model:ir.actions.act_window,name:automobile_fleet_management.vehicle_action
+#: model:ir.model,name:automobile_fleet_management.model_vehicle
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_maintenance_service__vehicle_id
+#: model:ir.ui.menu,name:automobile_fleet_management.menu_vehicle
+#: model_terms:ir.ui.view,arch_db:automobile_fleet_management.vehicle_search
+msgid "Vehicle"
+msgstr "Vehiculo"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle__vehicle_brand_id
+msgid "Vehicle brands"
+msgstr "Marca"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle__vehicle_model_id
+msgid "Vehicle models"
+msgstr "Modelo"
+
+#. module: automobile_fleet_management
+#: model_terms:ir.ui.view,arch_db:automobile_fleet_management.vehicle_search
+msgid "Year"
+msgstr "año"
+
+#. module: automobile_fleet_management
+#: model:ir.model,name:automobile_fleet_management.model_vehicle_brand
+msgid "brands"
+msgstr "Marcas"
+
+#. module: automobile_fleet_management
+#: model:ir.model,name:automobile_fleet_management.model_vehicle_color
+msgid "colors"
+msgstr "Color"
+
+#. module: automobile_fleet_management
+#: model_terms:ir.ui.view,arch_db:automobile_fleet_management.report_vehicle_templ
+msgid "list of vehicles"
+msgstr "Lista de vehiculos"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle__mileage_id
+#: model:ir.ui.menu,name:automobile_fleet_management.menu_mileage
+#: model_terms:ir.ui.view,arch_db:automobile_fleet_management.mileage_search
+msgid "mileage"
+msgstr "Kilometraje"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_mileage__quantity
+msgid "mileage quantity"
+msgstr "Cantidad de kilometros"
+
+#. module: automobile_fleet_management
+#: model:ir.model,name:automobile_fleet_management.model_vehicle_models
+msgid "models"
+msgstr "modelos"
+
+#. module: automobile_fleet_management
+#: model_terms:ir.ui.view,arch_db:automobile_fleet_management.mileage_search
+msgid "name"
+msgstr "nombre"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle__quantity_service
+msgid "quantity of services"
+msgstr "Cantidad de servicio"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_maintenance_service__start_date
+msgid "start date"
+msgstr "Fecha Entrada"
+
+#. module: automobile_fleet_management
+#: model:ir.model,name:automobile_fleet_management.model_report_automobile_fleet_management_report_vehicle_templ
+msgid "vehicle Report"
+msgstr "Reporte de vehiculo"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle__vehicle_color_id
+msgid "vehicle color"
+msgstr "Color"
+
+#. module: automobile_fleet_management
+#: model:ir.model.fields,field_description:automobile_fleet_management.field_vehicle__year
+msgid "vehicle year"
+msgstr "Año"

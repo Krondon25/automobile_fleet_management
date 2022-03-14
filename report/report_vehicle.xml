@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+     <report 
+            string="Report Vehicle" 
+            id="report_vehicle" 
+            model="vehicle" 
+            report_type="qweb-pdf"
+            name="automobile_fleet_management.report_vehicle_templ" 
+            file="automobile_fleet_management.report_vehicle_templ"
+            print_report_name="'Report'"
+        />
+
+    <template id="report_vehicle_templ">
+        <t t-call="web.html_container">
+            <t t-call="web.external_layout">
+                <div class="page">
+                    <div class="oe_structure"/>
+                    <center><h1> list of vehicles </h1></center>
+                    <div class="row">
+                        <table class="table table-condensed">
+                            <thead>
+                                <tr>
+                                    <th style="text-align:left;"><strong>Brand </strong></th>
+                                    <th style="text-align:left;"><strong>Models </strong></th>
+                                    <th style="text-align:left;"><strong>Color </strong></th>
+                                    <th style="text-align:left;"><strong>Year </strong></th>
+                                    <th style="text-align:left;"><strong>Mileage </strong></th>
+                                    <th style="text-align:left;"><strong>service </strong></th>
+                                    <th style="text-align:left;"><strong>Current price </strong></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <t t-foreach="docs" t-as="o">
+                                    <tr>
+                                        <td style="text-align:left;">
+                                            <span t-field="o.vehicle_brand_id.name"/>
+                                        </td>
+                                        <td style="text-align:left;">
+                                            <span t-field="o.vehicle_model_id.name"/>
+                                        </td>
+                                         <td style="text-align:left;">
+                                             <span t-field="o.vehicle_color_id.name"/>
+                                        </td>
+                                        <td style="text-align:left;">
+                                             <span t-field="o.year"/>
+                                        </td>
+                                        <td style="text-align:left;">
+                                             <span t-field="o.mileage_id.name"/>
+                                        </td>
+                                        <td style="text-align:left;">
+                                             <span t-field="o.quantity_service"/>
+                                        </td>
+                                        <td style="text-align:left;">
+                                             <span t-field="o.current_price"/>
+                                        </td>
+                            
+                                    </tr>
+                                </t>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </t>
+        </t>
+    </template>
+
+</odoo>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- Brands -->
+
+        <record id="vehicle_brand_1" model="vehicle.brand">
+            <field name="name">CHEVROLET</field>
+        </record>
+
+        <record id="vehicle_brand_2" model="vehicle.brand">
+            <field name="name">BYD</field>
+        </record>
+
+         <record id="vehicle_brand_3" model="vehicle.brand">
+            <field name="name">CITROEN</field>
+        </record>
+
+         <record id="vehicle_brand_4" model="vehicle.brand">
+            <field name="name">BYD</field>
+        </record>
+
+         <record id="vehicle_brand_5" model="vehicle.brand">
+            <field name="name">BMW</field>
+        </record>
+
+         <record id="vehicle_brand_6" model="vehicle.brand">
+            <field name="name">BENTLEY</field>
+        </record>
+
+         <record id="vehicle_brand_7" model="vehicle.brand">
+            <field name="name">AUDI</field>
+        </record>
+
+         <record id="vehicle_brand_8" model="vehicle.brand">
+            <field name="name">ASTON MARTIN</field>
+        </record>
+
+         <record id="vehicle_brand_9" model="vehicle.brand">
+            <field name="name">FERRARI</field>
+        </record>
+
+
+        <!--models  -->
+
+        <record id="vehicle_models_1" model="vehicle.models">
+            <field name="name">GTC4</field>
+        </record>
+
+        <record id="vehicle_models_2" model="vehicle.models">
+            <field name="name">California</field>
+        </record>
+
+        <record id="vehicle_models_3" model="vehicle.models">
+            <field name="name">Cruze</field>
+        </record>
+
+        <record id="vehicle_models_4" model="vehicle.models">
+            <field name="name">Aveo</field>
+        </record>
+
+        <record id="vehicle_models_5" model="vehicle.models">
+            <field name="name">E6</field>
+        </record>
+
+        <record id="vehicle_models_6" model="vehicle.models">
+            <field name="name">Serie 3</field>
+        </record>
+
+        <record id="vehicle_models_7" model="vehicle.models">
+            <field name="name">X1</field>
+        </record>
+
+        <record id="vehicle_models_8" model="vehicle.models">
+            <field name="name">Serie 2 Gran Tourer</field>
+        </record>
+
+        <record id="vehicle_models_9" model="vehicle.models">
+            <field name="name">Continental GT</field>
+        </record>
+
+        <record id="vehicle_models_10" model="vehicle.models">
+            <field name="name">Mulsanne</field>
+        </record>
+
+        <record id="vehicle_models_11" model="vehicle.models">
+            <field name="name">A4 Allroad Quattro</field>
+        </record>
+
+        <record id="vehicle_models_12" model="vehicle.models">
+            <field name="name">A5</field>
+        </record>
+        <record id="vehicle_models_13" model="vehicle.models">
+            <field name="name">A6 Allroad Quattro</field>
+        </record>
+
+        <record id="vehicle_models_14" model="vehicle.models">
+            <field name="name">Vantage V12</field>
+        </record>
+
+        <record id="vehicle_models_15" model="vehicle.models">
+            <field name="name">Rapide</field>
+        </record>
+
+        <record id="vehicle_models_16" model="vehicle.models">
+            <field name="name">4C</field>
+        </record>
+
+        <record id="vehicle_models_17" model="vehicle.models">
+            <field name="name">Giulietta</field>
+        </record>
+
+        <!-- Color -->
+
+        <record id="vehicle_color_1" model="vehicle.color">
+            <field name="name">Blue</field>
+        </record>
+
+        <record id="vehicle_color_2" model="vehicle.color">
+            <field name="name">Red</field>
+        </record>
+
+        <record id="vehicle_color_3" model="vehicle.color">
+            <field name="name">Green</field>
+        </record>
+
+        <record id="vehicle_color_4" model="vehicle.color">
+            <field name="name">Black</field>
+        </record>
+
+        <record id="vehicle_color_5" model="vehicle.color">
+            <field name="name">gray</field>
+        </record>
+
+        <record id="vehicle_color_6" model="vehicle.color">
+            <field name="name">brown</field>
+        </record>
+
+
+        <!-- Vehicles -->
+
+        <record id="vehicle_1" model="vehicle">
+            <field name="vehicle_brand_id" ref="vehicle_brand_1"/>
+            <field name="vehicle_model_id" ref="vehicle_models_4"/>
+            <field name="vehicle_color_id" ref="vehicle_color_4"/>
+            <field name="year">2021</field>
+        </record>
+
+        <record id="vehicle_2" model="vehicle">
+            <field name="vehicle_brand_id" ref="vehicle_brand_9"/>
+            <field name="vehicle_model_id" ref="vehicle_models_6"/>
+            <field name="vehicle_color_id" ref="vehicle_color_2"/>
+            <field name="year">2022</field>
+        </record>
+
+        <record id="vehicle_3" model="vehicle">
+            <field name="vehicle_brand_id" ref="vehicle_brand_1"/>
+            <field name="vehicle_model_id" ref="vehicle_models_5"/>
+            <field name="vehicle_color_id" ref="vehicle_color_6"/>
+            <field name="year">2022</field>
+        </record>
+
+        <record id="vehicle_4" model="vehicle">
+            <field name="vehicle_brand_id" ref="vehicle_brand_5"/>
+            <field name="vehicle_model_id" ref="vehicle_models_16"/>
+            <field name="vehicle_color_id" ref="vehicle_color_5"/>
+            <field name="year">2020</field>
+        </record>
+
+        <record id="vehicle_5" model="vehicle">
+            <field name="vehicle_brand_id" ref="vehicle_brand_2"/>
+            <field name="vehicle_model_id" ref="vehicle_models_3"/>
+            <field name="vehicle_color_id" ref="vehicle_color_2"/>
+            <field name="year">2020</field>
+        </record>
+
+        <record id="vehicle_6" model="vehicle">
+            <field name="vehicle_brand_id" ref="vehicle_brand_8"/>
+            <field name="vehicle_model_id" ref="vehicle_models_14"/>
+            <field name="vehicle_color_id" ref="vehicle_color_3"/>
+            <field name="year">2019</field>
+        </record>
+
+        <record id="vehicle_7" model="vehicle">
+            <field name="vehicle_brand_id" ref="vehicle_brand_7"/>
+            <field name="vehicle_model_id" ref="vehicle_models_7"/>
+            <field name="vehicle_color_id" ref="vehicle_color_2"/>
+            <field name="year">2018</field>
+        </record>
+
+        <record id="vehicle_8" model="vehicle">
+            <field name="vehicle_brand_id" ref="vehicle_brand_1"/>
+            <field name="vehicle_model_id" ref="vehicle_models_13"/>
+            <field name="vehicle_color_id" ref="vehicle_color_1"/>
+            <field name="year">2019</field>
+        </record>
+
+        <record id="vehicle_9" model="vehicle">
+            <field name="vehicle_brand_id" ref="vehicle_brand_2"/>
+            <field name="vehicle_model_id" ref="vehicle_models_9"/>
+            <field name="vehicle_color_id" ref="vehicle_color_3"/>
+            <field name="year">2019</field>
+        </record>
+
+        <record id="vehicle_10" model="vehicle">
+            <field name="vehicle_brand_id" ref="vehicle_brand_5"/>
+            <field name="vehicle_model_id" ref="vehicle_models_16"/>
+            <field name="vehicle_color_id" ref="vehicle_color_5"/>
+            <field name="year">2022</field>
+        </record>
+
+        <record id="vehicle_11" model="vehicle">
+            <field name="vehicle_brand_id" ref="vehicle_brand_4"/>
+            <field name="vehicle_model_id" ref="vehicle_models_6"/>
+            <field name="vehicle_color_id" ref="vehicle_color_6"/>
+            <field name="year">2022</field>
+        </record>
+    </data>
+</odoo>

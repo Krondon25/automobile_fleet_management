@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+
+        <!-- discount -->
+        
+        <record id="mileage_discount_1" model="mileage.discount">
+            <field name="name">5%</field>
+            <field name="percentage_discount">5</field>
+        </record>
+
+        <record id="mileage_discount_2" model="mileage.discount">
+            <field name="name">10%</field>
+            <field name="percentage_discount">10</field>
+        </record>
+
+        <record id="mileage_discount_3" model="mileage.discount">
+            <field name="name">15%</field>
+            <field name="percentage_discount">15</field>
+        </record>
+
+        <record id="mileage_discount_4" model="mileage.discount">
+            <field name="name">20%</field>
+            <field name="percentage_discount">20</field>
+        </record>
+
+        <record id="mileage_discount_5" model="mileage.discount">
+            <field name="name">25%</field>
+            <field name="percentage_discount">25</field>
+        </record>
+
+        <record id="mileage_discount_6" model="mileage.discount">
+            <field name="name">30%</field>
+            <field name="percentage_discount">30</field>
+        </record>
+
+        <record id="mileage_discount_7" model="mileage.discount">
+            <field name="name">35%</field>
+            <field name="percentage_discount">35</field>
+        </record>
+
+        <record id="mileage_discount_8" model="mileage.discount">
+            <field name="name">40%</field>
+            <field name="percentage_discount">40</field>
+        </record>
+
+        <record id="mileage_discount_9" model="mileage.discount">
+            <field name="name">45%</field>
+            <field name="percentage_discount">45</field>
+        </record>
+
+        <record id="mileage_discount_10" model="mileage.discount">
+            <field name="name">50%</field>
+            <field name="percentage_discount">50</field>
+        </record>
+
+
+
+        <!-- mileage -->
+
+        <record id="vehicle_mileage_1" model="mileage">
+            <field name="name">10000 km</field>
+            <field name="quantity">10000</field>
+            <field name="percentage_discount_id" ref="mileage_discount_1"/>
+        </record>
+
+        <record id="vehicle_mileage_2" model="mileage">
+            <field name="name">20000 km</field>
+            <field name="quantity">20000</field>
+            <field name="percentage_discount_id" ref="mileage_discount_2"/>
+        </record>
+
+         <record id="vehicle_mileage_3" model="mileage">
+            <field name="name">30000 km</field>
+            <field name="quantity">30000</field>
+            <field name="percentage_discount_id" ref="mileage_discount_3"/>
+        </record>
+
+         <record id="vehicle_mileage_4" model="mileage">
+            <field name="name">40000 km</field>
+            <field name="quantity">40000</field>
+            <field name="percentage_discount_id" ref="mileage_discount_4"/>
+        </record>
+
+         <record id="vehicle_mileage_5" model="mileage">
+            <field name="name">50000 km</field>
+            <field name="quantity">50000</field>
+            <field name="percentage_discount_id" ref="mileage_discount_5"/>
+        </record>
+
+         <record id="vehicle_mileage_6" model="mileage">
+            <field name="name">60000 km</field>
+            <field name="quantity">60000</field>
+            <field name="percentage_discount_id" ref="mileage_discount_6"/>
+        </record>
+
+         <record id="vehicle_mileage_7" model="mileage">
+            <field name="name">70000 km</field>
+            <field name="quantity">70000</field>
+            <field name="percentage_discount_id" ref="mileage_discount_7"/>
+        </record>
+
+         <record id="vehicle_mileage_8" model="mileage">
+            <field name="name">80000 km</field>
+            <field name="quantity">80000</field>
+            <field name="percentage_discount_id" ref="mileage_discount_8"/>
+        </record>
+
+        <record id="vehicle_mileage_9" model="mileage">
+            <field name="name">90000 km</field>
+            <field name="quantity">90000</field>
+            <field name="percentage_discount_id" ref="mileage_discount_9"/>
+        </record>
+
+        <record id="vehicle_mileage_10" model="mileage">
+            <field name="name">100000 km</field>
+            <field name="quantity">100000</field>
+            <field name="percentage_discount_id" ref="mileage_discount_10"/>
+        </record>
+
+    
+        
+    </data>
+</odoo>

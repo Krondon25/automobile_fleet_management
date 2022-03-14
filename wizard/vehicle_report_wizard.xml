@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <record id="vehicle_report_form" model="ir.ui.view">
+         <field name="name">vehicle.report.wizard</field>
+         <field name="model">vehicle.report.wizard</field>
+         <field name="arch" type="xml">
+            <form string="Report">
+                <group>
+                    <field name="purchase_date"/>
+                </group>
+                <footer>
+                    <button name="print_report" string="Print" type="object" class="btn-primary"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+         </field>
+     </record>
+
+     <record id="wizard_action" model="ir.actions.act_window">
+            <field name="name">Report</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">vehicle.report.wizard</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="vehicle_report_form"/>
+             <field name="target">new</field>
+        </record>
+
+    <menuitem id="menu_reporte_management" name="Reporte"
+                parent="menu_automobile_fleet_root" sequence="2" />
+
+
+    <menuitem id="menu_automobile_report" name="Report"
+                    parent="menu_reporte_management" sequence="1" />
+         <menuitem 
+                id="menu_report" 
+                name="Report"
+                parent="menu_automobile_report"
+                action="wizard_action" 
+                sequence="1" />
+
+
+</odoo>

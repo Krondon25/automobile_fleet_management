@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="mileage_action" model="ir.actions.act_window">
+            <field name="name">Mileage</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">mileage</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+              <p class="o_view_nocontent_smiling_face">
+                Create a New Record
+              </p>
+            </field>
+        </record>
+        
+        <record model="ir.ui.view" id="vehicle_view_tree">
+            <field name="name">mileage.tree</field> 
+            <field name="model">mileage</field>
+            <field name="arch" type="xml">
+                <tree string="">
+                    <field name="name" />
+                    <field name="quantity" />
+                    <field name="percentage_discount_id"/>
+                </tree>
+            </field>
+        </record>       
+        
+        <record model="ir.ui.view" id="mileage_view_form">
+            <field name="name">mileage.form</field> 
+            <field name="model">mileage</field>
+            <field name="arch" type="xml">
+                <form string="">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="name" />
+                                <field name="quantity" />
+                                
+                            </group>
+                            <group>
+                                <field name="percentage_discount_id"/>
+                            </group>
+                        </group>            
+                    </sheet>
+
+                </form>
+            </field>
+        </record>
+
+        <record id="mileage_search" model="ir.ui.view">
+            <field name="name">mileage.search</field>
+            <field name="model">mileage</field>
+            <field name="arch" type="xml">
+                <search string="mileage">
+                    <field name="name" string="name" 
+                        filter_domain="[('name', 'ilike', self)]"/>
+                </search>
+            </field>
+        </record>
+
+        <menuitem 
+            id="menu_mileage" 
+            name="mileage"
+            parent="menu_automobile_management"
+            action="mileage_action" 
+            sequence="3" />
+
+    </data>
+
+</odoo>

@@ -30,8 +30,10 @@ class Vehicle(models.Model):
     @api.onchange('percentage_discount_id')
     def _onchange_percentage_discount(self):
         """ vehicle mileage discount """
-        discount = (self.purchase_price * self.percentage_discount_id.percentage_discount) / 100
-        self.current_price = self.purchase_price - discount
+        for record in self:
+            discount = (record.purchase_price * record.percentage_discount_id.percentage_discount) / 100
+            record.current_price = record.purchase_price - discount
+
 
 
     @api.depends('maintenance_ids')
